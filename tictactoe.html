@@ -250,7 +250,7 @@
       let bestMove ;
       let bestScore = -Infinity ;
       
-      for (let i = 0; i < gridPositionArray.length; i++) {
+      for (let i = 0 ; i < gridPositionArray.length ; i++) {
         if (gridPositionArray[i] === 0) {
           gridPositionArray[i] = 2 ; // Simulate AI's move
           const score = minimax(gridPositionArray, 0, false) ;
